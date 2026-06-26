@@ -6,9 +6,8 @@ Repositorio para la Practica Formativa Obligatoria 2 sobre Prompt Engineering en
 
 - Estudiante: Leandro Sacha Melchiori
 - DNI: 39121517
-- Curso: 2do ano
+- Curso: 2do año
 - Comision: D
-- Fecha de entrega: 26/06/2026
 
 ## Deploy unificado
 
