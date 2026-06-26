@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portada de acceso al despliegue unificado de la PFO2: prompt utilizado y landings generadas con Codex y Claude Code."
+    />
+    <title>PFO2 | Despliegue unificado</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero__content">
+          <p class="eyebrow">Practica Formativa Obligatoria 2</p>
+          <h1 id="page-title">Despliegue unificado de landings generadas con IA</h1>
+          <p class="hero__lead">
+            Portada de acceso al prompt utilizado y a las dos versiones de la landing page generadas por agentes de
+            desarrollo de software.
+          </p>
+        </div>
+
+        <div class="hero__meta" aria-label="Resumen del trabajo">
+          <span>Prompt Engineering</span>
+          <span>Landing Page</span>
+          <span>Comparativa de agentes</span>
+        </div>
+      </section>
+
+      <section class="access-grid" aria-label="Accesos principales">
+        <article class="access-card access-card--prompt">
+          <div class="access-card__marker">01</div>
+          <div class="access-card__body">
+            <p class="card-kicker">Texto plano</p>
+            <h2>Prompt utilizado</h2>
+            <p>
+              Acceso al archivo con el prompt inicial aplicado en ambos agentes para generar y comparar las dos
+              versiones de la landing page.
+            </p>
+          </div>
+          <a class="button" href="prompt.txt">Ver prompt</a>
+        </article>
+
+        <article class="access-card">
+          <div class="access-card__marker">02</div>
+          <div class="access-card__body">
+            <p class="card-kicker">Primer agente</p>
+            <h2>Codex</h2>
+            <p>
+              Landing page generada con Codex de OpenAI. Modelo utilizado: GPT-5.5 con razonamiento alto. Version
+              estatica en HTML, CSS y JavaScript.
+            </p>
+          </div>
+          <a class="button" href="Codex/index.html">Abrir landing Codex</a>
+        </article>
+
+        <article class="access-card">
+          <div class="access-card__marker">03</div>
+          <div class="access-card__body">
+            <p class="card-kicker">Segundo agente</p>
+            <h2>Claude Code</h2>
+            <p>
+              Landing page generada con Claude Code. Modelo utilizado: Sonnet 4.8 con razonamiento alto. Version
+              estatica en HTML, CSS y JavaScript.
+            </p>
+          </div>
+          <a class="button" href="Claude/espacio-gamer-landing/index.html">Abrir landing Claude</a>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

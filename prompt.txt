@@ -1,0 +1,308 @@
+<role>
+
+Actúa como un desarrollador Frontend Senior especializado en UX/UI, diseño web moderno, accesibilidad, marketing digital, diseño responsive y creación de Landing Pages orientadas a conversión.
+
+Tu tarea es generar una Landing Page profesional, moderna y completamente responsive para promocionar un taller educativo.
+
+Debes tomar decisiones de diseño y desarrollo de manera autónoma, aplicando buenas prácticas de código, experiencia de usuario, accesibilidad y comunicación visual.
+
+</role>
+
+<context>
+
+El proyecto corresponde al **Espacio Gamer de General Lagos**, un taller donde niños y adolescentes aprenden informática a través de videojuegos y desafíos interactivos.
+
+El objetivo del taller no es simplemente jugar videojuegos, sino utilizar el juego como herramienta educativa para estimular el desarrollo cognitivo, social y emocional.
+
+En los talleres se trabajan actividades con juegos individuales y cooperativos que proponen desafíos progresivos. Estos desafíos buscan desarrollar habilidades como:
+
+* pensamiento lógico
+* resolución de problemas
+* creatividad
+* memoria
+* atención
+* toma de decisiones
+* trabajo en equipo
+* compañerismo
+* comunicación asertiva
+* cooperación
+* liderazgo
+* tolerancia a la frustración
+* perseverancia
+* planificación estratégica
+* adaptación frente a nuevos desafíos
+
+La propuesta debe transmitir que los videojuegos pueden ser una herramienta seria, educativa y motivadora cuando están bien guiados.
+
+</context>
+
+<visual_identity>
+
+La imagen adjunta corresponde al **logo oficial del Espacio Gamer**.
+
+Debes utilizar esa imagen como logotipo principal de la Landing Page.
+
+La identidad visual del sitio debe construirse tomando como referencia los colores, estilo y energía visual del logo.
+
+La estética general debe comunicar:
+
+* tecnología
+* videojuegos
+* educación
+* innovación
+* diversión
+* confianza
+* profesionalismo
+
+Evitar que el sitio parezca demasiado infantil. Debe resultar atractivo para niños y adolescentes, pero también generar confianza en padres, madres y adultos responsables.
+
+</visual_identity>
+
+<target_audience>
+
+El público objetivo principal son padres, madres y adultos responsables de niños y adolescentes de General Lagos y alrededores.
+
+El público secundario son niños y adolescentes interesados en videojuegos, informática, tecnología y desafíos interactivos.
+
+El lenguaje debe ser claro, cercano, motivador y profesional.
+
+Debe transmitir entusiasmo, pero sin sonar exagerado ni publicitario de forma genérica.
+
+</target_audience>
+
+<main_objective>
+
+Crear una Landing Page cuyo objetivo principal sea invitar a las familias a sumarse a los talleres del Espacio Gamer.
+
+La página debe motivar al visitante a solicitar información o inscribirse.
+
+El llamado a la acción principal debe repetirse en puntos estratégicos del sitio.
+
+Usar CTAs como:
+
+* Quiero sumarme
+* Reservar mi lugar
+* Solicitar información
+* Inscribirme al taller
+* Conocer más
+
+</main_objective>
+
+<page_structure>
+
+La Landing Page debe incluir obligatoriamente las siguientes secciones:
+
+## 1. Header
+
+Crear una cabecera moderna con:
+
+* logo oficial del Espacio Gamer
+* menú de navegación
+* botón CTA visible
+* navegación suave hacia las secciones internas
+* diseño responsive para dispositivos móviles
+
+## 2. Hero Section
+
+Crear una sección principal impactante con:
+
+* título fuerte y atractivo
+* subtítulo explicando la propuesta educativa
+* botón CTA principal
+* imagen, ilustración, fondo o recurso visual relacionado con videojuegos, tecnología e informática
+* diseño visual llamativo, moderno y profesional
+
+El mensaje central debe dejar claro que en el Espacio Gamer se aprende informática jugando, resolviendo desafíos y trabajando en equipo.
+
+## 3. Sobre Nosotros
+
+Explicar qué es el Espacio Gamer de General Lagos.
+
+Aclarar que el taller combina videojuegos, informática y desarrollo de habilidades cognitivas.
+
+Transmitir que los juegos son seleccionados y utilizados con una finalidad educativa.
+
+## 4. Beneficios o Características Principales
+
+Crear una sección con tarjetas visuales e iconos modernos.
+
+Incluir beneficios como:
+
+* Desarrollo del pensamiento lógico
+* Resolución de problemas
+* Trabajo en equipo
+* Comunicación asertiva
+* Creatividad
+* Concentración
+* Tolerancia a la frustración
+* Cooperación
+* Aprendizaje a través de desafíos
+
+## 5. ¿Cómo son los talleres?
+
+Explicar la dinámica de las clases:
+
+* desafíos individuales
+* desafíos cooperativos
+* juegos seleccionados con objetivos educativos
+* actividades guiadas
+* resolución de problemas
+* reflexión sobre lo aprendido
+* acompañamiento durante el proceso
+
+Debe quedar claro que el aprendizaje se produce de forma práctica, entretenida y progresiva.
+
+## 6. Testimonios o Reseñas
+
+Crear al menos cuatro testimonios ficticios, realistas y breves.
+
+Los testimonios deben representar opiniones de padres, madres o participantes.
+
+Deben transmitir confianza, entusiasmo y mejora en habilidades personales.
+
+## 7. Preguntas Frecuentes
+
+Agregar una sección de preguntas frecuentes con respuestas claras.
+
+Incluir preguntas como:
+
+* ¿Necesitan conocimientos previos?
+* ¿Qué edades pueden participar?
+* ¿Qué tipo de juegos se utilizan?
+* ¿Se aprende informática?
+* ¿Los talleres son solo para quienes ya juegan videojuegos?
+* ¿Dónde se realizan?
+
+## 8. Formulario de Contacto
+
+Crear un formulario visual, sin funcionalidad backend real.
+
+El formulario debe incluir:
+
+* Nombre del adulto responsable
+* Nombre del alumno/a
+* Edad del alumno/a
+* Teléfono
+* Email
+* Mensaje opcional
+* Botón CTA: "Quiero más información"
+
+## 9. Footer
+
+Crear un pie de página con:
+
+* logo o nombre del Espacio Gamer
+* enlaces de navegación
+* redes sociales ficticias o placeholders
+* ubicación: General Lagos, Santa Fe
+* copyright
+
+</page_structure>
+
+<design_requirements>
+
+El diseño debe ser:
+
+* moderno
+* responsive
+* visualmente atractivo
+* profesional
+* accesible
+* limpio
+* dinámico
+* tecnológico
+* orientado a conversión
+
+Aplicar:
+
+* buena jerarquía visual
+* tipografías modernas y legibles
+* contraste adecuado
+* botones claros
+* tarjetas con bordes redondeados
+* sombras sutiles
+* animaciones suaves
+* diseño adaptable a celular, tablet y escritorio
+* iconografía coherente
+* espaciado equilibrado
+
+La estética puede inspirarse en Landing Pages modernas de tecnología, educación digital, videojuegos y productos SaaS.
+
+</design_requirements>
+
+<technical_requirements>
+
+Generar el proyecto completo de la Landing Page utilizando tecnologías frontend modernas.
+
+Priorizar código limpio, organizado, mantenible y fácil de entender.
+
+El sitio debe funcionar correctamente sin necesidad de backend.
+
+No incluir dependencias innecesarias.
+
+Cuidar:
+
+* accesibilidad semántica
+* etiquetas HTML correctas
+* textos alternativos en imágenes
+* buen rendimiento
+* diseño mobile-first
+* estructura clara de archivos
+* nombres descriptivos de clases, componentes o secciones
+
+Si utilizas React, Next.js, Vite u otro framework, organizar el proyecto correctamente.
+
+Si utilizas HTML, CSS y JavaScript puro, separar los archivos de manera ordenada.
+
+</technical_requirements>
+
+<content_tone>
+
+El tono del contenido debe ser:
+
+* cercano
+* profesional
+* motivador
+* claro
+* confiable
+* moderno
+
+Evitar frases vacías o genéricas.
+
+No presentar el taller como una simple actividad recreativa.
+
+Comunicar que el juego es una herramienta para aprender, pensar, crear, cooperar y superar desafíos.
+
+</content_tone>
+
+<success_criteria>
+
+Antes de finalizar, verifica que la Landing Page cumpla con estos criterios:
+
+* Usa el logo oficial adjunto como identidad principal.
+* Tiene Header con navegación.
+* Tiene Hero Section con CTA claro.
+* Explica qué es el Espacio Gamer.
+* Comunica el valor educativo de aprender informática mediante videojuegos.
+* Incluye beneficios concretos.
+* Incluye sección de dinámica de clases.
+* Incluye testimonios o reseñas.
+* Incluye formulario de contacto visual.
+* Incluye Footer con redes sociales.
+* Es responsive.
+* Tiene una estética moderna y tecnológica.
+* Resulta atractiva para niños y adolescentes.
+* Genera confianza en padres y madres.
+* Está orientada a conseguir inscripciones o consultas.
+
+</success_criteria>
+
+<final_instruction>
+
+Genera la Landing Page completa de forma autónoma.
+
+No pidas confirmaciones adicionales.
+
+No entregues solo una explicación: crea directamente los archivos necesarios del proyecto.
+
+</final_instruction>

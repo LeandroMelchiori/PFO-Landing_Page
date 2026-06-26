@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Espacio Gamer de General Lagos: talleres donde niños y adolescentes aprenden informática a través de videojuegos, desafíos interactivos y trabajo en equipo."
+    />
+    <title>Espacio Gamer General Lagos | Informática a través de videojuegos</title>
+    <link rel="icon" href="assets/logo-espacio-gamer.svg" type="image/svg+xml" />
+    <link rel="preload" href="assets/hero-espacio-gamer.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <img src="assets/logo-espacio-gamer.svg" alt="Espacio Gamer General Lagos" class="brand__logo" />
+        <span class="brand__wordmark" aria-hidden="true">
+          <strong>Espacio Gamer</strong>
+          <small>General Lagos</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-controls="site-nav" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal" data-nav>
+        <a href="#propuesta">Propuesta</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#talleres">Talleres</a>
+        <a href="#resenas">Reseñas</a>
+        <a href="#preguntas">Preguntas</a>
+        <a href="#contacto" class="nav-cta">Reservar mi lugar</a>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero section-anchor" id="inicio" aria-labelledby="hero-title">
+        <img
+          class="hero__image"
+          src="assets/hero-espacio-gamer.png"
+          alt="Estudiantes colaborando con computadoras y videojuegos educativos en un espacio tecnológico"
+        />
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+          <p class="eyebrow">Taller educativo en General Lagos</p>
+          <h1 id="hero-title">Espacio Gamer General Lagos</h1>
+          <p class="hero__lead">
+            Aprender informática jugando, resolviendo desafíos y trabajando en equipo. Una propuesta guiada para convertir
+            los videojuegos en una experiencia de aprendizaje real.
+          </p>
+          <div class="hero__actions" aria-label="Acciones principales">
+            <a class="button button--primary" href="#contacto">
+              Quiero sumarme
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg>
+            </a>
+            <a class="button button--secondary" href="#propuesta">Conocer más</a>
+          </div>
+          <dl class="hero__facts" aria-label="Datos destacados del taller">
+            <div>
+              <dt>Modalidad</dt>
+              <dd>Práctica y guiada</dd>
+            </div>
+            <div>
+              <dt>Enfoque</dt>
+              <dd>Informática + habilidades</dd>
+            </div>
+            <div>
+              <dt>Dinámica</dt>
+              <dd>Desafíos progresivos</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="intro section-anchor" id="propuesta" aria-labelledby="propuesta-title">
+        <div class="section-shell intro__grid">
+          <div>
+            <p class="section-kicker">Sobre nosotros</p>
+            <h2 id="propuesta-title">Videojuegos bien guiados para aprender, pensar y cooperar.</h2>
+          </div>
+          <div class="intro__copy">
+            <p>
+              El Espacio Gamer de General Lagos es un taller donde niños y adolescentes se acercan a la informática
+              mediante juegos seleccionados, retos interactivos y actividades acompañadas por una mirada educativa.
+            </p>
+            <p>
+              No se trata de jugar por jugar. Cada propuesta busca entrenar el pensamiento lógico, la toma de decisiones,
+              la creatividad, la comunicación y la tolerancia a la frustración en un entorno cuidado y motivador.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits section-anchor" id="beneficios" aria-labelledby="beneficios-title">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker">Beneficios</p>
+            <h2 id="beneficios-title">Habilidades que se entrenan con cada desafío.</h2>
+            <p>
+              Las actividades combinan juego, informática y reflexión para que cada participante avance a su ritmo y
+              descubra nuevas formas de resolver problemas.
+            </p>
+          </div>
+
+          <div class="benefit-grid">
+            <article class="benefit-card">
+              <span class="icon-badge">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 9h8M8 15h8M12 3v18M4 7h16M4 17h16" /></svg>
+              </span>
+              <h3>Pensamiento lógico</h3>
+              <p>Secuencias, reglas y estrategias para entender cómo avanzar paso a paso.</p>
+            </article>
+            <article class="benefit-card">
+              <span class="icon-badge icon-badge--coral">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m8 12 3 3 5-6M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>
+              </span>
+              <h3>Resolución de problemas</h3>
+              <p>Retos concretos que invitan a probar, comparar opciones y mejorar decisiones.</p>
+            </article>
+            <article class="benefit-card">
+              <span class="icon-badge icon-badge--lime">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm8 10v-2a4 4 0 0 0-4-4H4a4 4 0 0 0-4 4v2M17 11l2 2 4-5" /></svg>
+              </span>
+              <h3>Trabajo en equipo</h3>
+              <p>Misiones cooperativas para coordinar roles, ayudar y celebrar logros compartidos.</p>
+            </article>
+            <article class="benefit-card">
+              <span class="icon-badge icon-badge--yellow">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8Z" /></svg>
+              </span>
+              <h3>Comunicación asertiva</h3>
+              <p>Expresar ideas, escuchar al grupo y dar indicaciones claras durante el juego.</p>
+            </article>
+            <article class="benefit-card">
+              <span class="icon-badge">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v3M5.6 5.6l2.1 2.1M3 12h3m-.4 6.4 2.1-2.1M12 18v3m6.4-2.6-2.1-2.1M18 12h3m-2.6-6.4-2.1 2.1M9 12a3 3 0 1 0 6 0 3 3 0 0 0-6 0Z" /></svg>
+              </span>
+              <h3>Creatividad</h3>
+              <p>Explorar soluciones, crear caminos alternativos y transformar ideas en acciones.</p>
+            </article>
+            <article class="benefit-card">
+              <span class="icon-badge icon-badge--coral">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 8v4l3 3M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>
+              </span>
+              <h3>Concentración</h3>
+              <p>Objetivos claros que entrenan memoria, atención sostenida y lectura del contexto.</p>
+            </article>
+            <article class="benefit-card">
+              <span class="icon-badge icon-badge--lime">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2 3 7l9 5 9-5-9-5Zm0 10-9 5 9 5 9-5-9-5Z" /></svg>
+              </span>
+              <h3>Perseverancia</h3>
+              <p>Aprender a equivocarse, ajustar una estrategia y volver a intentarlo con criterio.</p>
+            </article>
+            <article class="benefit-card">
+              <span class="icon-badge icon-badge--yellow">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 21s-7-4.4-7-11a7 7 0 0 1 14 0c0 6.6-7 11-7 11Z" /><path d="M9 10h6M12 7v6" /></svg>
+              </span>
+              <h3>Cooperación</h3>
+              <p>Dinámicas para ayudar, pedir ayuda y construir confianza entre participantes.</p>
+            </article>
+            <article class="benefit-card">
+              <span class="icon-badge">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 19V5m0 14h16M8 16l3-4 4 3 5-8" /></svg>
+              </span>
+              <h3>Aprendizaje progresivo</h3>
+              <p>Desafíos con dificultad creciente para que cada avance tenga sentido.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="workshops section-anchor" id="talleres" aria-labelledby="talleres-title">
+        <div class="section-shell workshops__grid">
+          <div class="workshops__intro">
+            <p class="section-kicker">Cómo son los talleres</p>
+            <h2 id="talleres-title">Una clase práctica, entretenida y con objetivos claros.</h2>
+            <p>
+              Cada encuentro propone experiencias individuales y cooperativas. Los juegos se eligen por lo que permiten
+              trabajar: lógica, planificación, comunicación, memoria, atención y adaptación a nuevos desafíos.
+            </p>
+            <a class="button button--primary" href="#contacto">
+              Inscribirme al taller
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg>
+            </a>
+          </div>
+
+          <ol class="timeline" aria-label="Dinámica de una clase">
+            <li>
+              <span>01</span>
+              <div>
+                <h3>Desafío inicial</h3>
+                <p>Se presenta una misión breve para activar la atención y comprender el objetivo del encuentro.</p>
+              </div>
+            </li>
+            <li>
+              <span>02</span>
+              <div>
+                <h3>Exploración guiada</h3>
+                <p>Los participantes prueban estrategias, resuelven problemas y reciben acompañamiento durante el proceso.</p>
+              </div>
+            </li>
+            <li>
+              <span>03</span>
+              <div>
+                <h3>Cooperación</h3>
+                <p>Se alternan retos individuales con actividades en equipo para practicar liderazgo, escucha y coordinación.</p>
+              </div>
+            </li>
+            <li>
+              <span>04</span>
+              <div>
+                <h3>Reflexión final</h3>
+                <p>El grupo conversa sobre lo aprendido, las estrategias usadas y cómo aplicar esas habilidades fuera del juego.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="cta-band" aria-labelledby="cta-title">
+        <div class="section-shell cta-band__content">
+          <div>
+            <p class="section-kicker">Cupos abiertos</p>
+            <h2 id="cta-title">Sumá a tu hijo o hija a una experiencia donde jugar también es aprender.</h2>
+          </div>
+          <a class="button button--light" href="#contacto">Solicitar información</a>
+        </div>
+      </section>
+
+      <section class="reviews section-anchor" id="resenas" aria-labelledby="resenas-title">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker">Reseñas</p>
+            <h2 id="resenas-title">Familias que ya ven el juego con otros ojos.</h2>
+          </div>
+
+          <div class="review-grid">
+            <article class="review-card">
+              <p>“Mi hijo empezó a explicar sus estrategias y a organizarse mejor. Se divierte, pero también vuelve pensando.”</p>
+              <footer>Mariana, mamá de Tomás</footer>
+            </article>
+            <article class="review-card">
+              <p>“Nos gustó que no sea solo jugar. Hay consignas, acompañamiento y mucho trabajo con el grupo.”</p>
+              <footer>Diego, papá de Valentina</footer>
+            </article>
+            <article class="review-card">
+              <p>“Antes se frustraba rápido. Ahora intenta otra forma, pide ayuda y celebra cuando el equipo avanza.”</p>
+              <footer>Laura, mamá de Benjamín</footer>
+            </article>
+            <article class="review-card">
+              <p>“Aprendí a resolver niveles con mis compañeros y a pensar antes de apurarme. Está buenísimo.”</p>
+              <footer>Mateo, participante</footer>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq section-anchor" id="preguntas" aria-labelledby="preguntas-title">
+        <div class="section-shell faq__grid">
+          <div>
+            <p class="section-kicker">Preguntas frecuentes</p>
+            <h2 id="preguntas-title">Lo que suelen preguntar las familias.</h2>
+            <p>
+              Si querés conocer horarios, cupos o modalidad actual, podés completar el formulario y te respondemos con la
+              información disponible.
+            </p>
+          </div>
+
+          <div class="faq-list">
+            <details>
+              <summary>¿Necesitan conocimientos previos?</summary>
+              <p>No. Las actividades están pensadas para que cada participante pueda empezar desde su experiencia actual.</p>
+            </details>
+            <details>
+              <summary>¿Qué edades pueden participar?</summary>
+              <p>La propuesta está orientada a niños y adolescentes. Los grupos pueden organizarse según edad y nivel.</p>
+            </details>
+            <details>
+              <summary>¿Qué tipo de juegos se utilizan?</summary>
+              <p>Juegos seleccionados por su potencial educativo: lógica, cooperación, creatividad, estrategia y resolución de problemas.</p>
+            </details>
+            <details>
+              <summary>¿Se aprende informática?</summary>
+              <p>Sí. La informática aparece de forma práctica mediante uso de dispositivos, pensamiento computacional, lógica y exploración guiada.</p>
+            </details>
+            <details>
+              <summary>¿Es solo para quienes ya juegan videojuegos?</summary>
+              <p>No. También es para quienes tienen curiosidad por la tecnología y quieren aprender en un entorno acompañado.</p>
+            </details>
+            <details>
+              <summary>¿Dónde se realizan?</summary>
+              <p>En General Lagos, Santa Fe. Consultá por horarios, ubicación específica y cupos disponibles.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-anchor" id="contacto" aria-labelledby="contacto-title">
+        <div class="section-shell contact__grid">
+          <div class="contact__intro">
+            <p class="section-kicker">Contacto</p>
+            <h2 id="contacto-title">Reservá un lugar o pedí más información.</h2>
+            <p>
+              Completá los datos y nos comunicamos para contarte horarios, cupos y próximos encuentros del Espacio Gamer.
+            </p>
+            <ul class="contact-list" aria-label="Datos de referencia">
+              <li>
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 21s-7-4.4-7-11a7 7 0 0 1 14 0c0 6.6-7 11-7 11Z" /><path d="M9 10a3 3 0 1 0 6 0 3 3 0 0 0-6 0Z" /></svg>
+                General Lagos, Santa Fe
+              </li>
+              <li>
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2Z" /></svg>
+                Consultas por cupos y horarios
+              </li>
+              <li>
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h16v16H4z" /><path d="m4 7 8 6 8-6" /></svg>
+                Respuesta personalizada para cada familia
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form" aria-describedby="form-help" data-contact-form>
+            <p id="form-help" class="form-help">Dejanos tus datos y te contamos horarios, cupos y próximos encuentros.</p>
+            <div class="field">
+              <label for="adult-name">Nombre del adulto responsable</label>
+              <input id="adult-name" name="adultName" type="text" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="student-name">Nombre del alumno/a</label>
+              <input id="student-name" name="studentName" type="text" required />
+            </div>
+            <div class="field-group">
+              <div class="field">
+                <label for="student-age">Edad del alumno/a</label>
+                <input id="student-age" name="studentAge" type="number" min="6" max="18" inputmode="numeric" required />
+              </div>
+              <div class="field">
+                <label for="phone">Teléfono</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" required />
+              </div>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="message">Mensaje opcional</label>
+              <textarea id="message" name="message" rows="4" placeholder="Contanos qué querés consultar"></textarea>
+            </div>
+            <button class="button button--primary form-button" type="submit">
+              Quiero más información
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg>
+            </button>
+            <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-shell footer__grid">
+        <a class="footer-brand" href="#inicio" aria-label="Volver al inicio">
+          <img src="assets/logo-espacio-gamer.svg" alt="Espacio Gamer General Lagos" />
+          <span aria-hidden="true">
+            <strong>Espacio Gamer</strong>
+            <small>General Lagos</small>
+          </span>
+        </a>
+        <nav class="footer-nav" aria-label="Navegación del pie">
+          <a href="#propuesta">Propuesta</a>
+          <a href="#beneficios">Beneficios</a>
+          <a href="#talleres">Talleres</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="footer-social" aria-label="Redes sociales">
+          <a href="https://www.instagram.com/espaciogamergl" target="_blank" rel="noreferrer" aria-label="Instagram del Espacio Gamer">Instagram</a>
+          <a href="https://www.facebook.com/espaciogamergl" target="_blank" rel="noreferrer" aria-label="Facebook del Espacio Gamer">Facebook</a>
+          <a href="https://wa.me/5490000000000" target="_blank" rel="noreferrer" aria-label="WhatsApp del Espacio Gamer">WhatsApp</a>
+        </div>
+        <p>General Lagos, Santa Fe</p>
+        <p>© 2026 Espacio Gamer. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

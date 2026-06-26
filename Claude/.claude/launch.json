@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "espacio-gamer",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8123", "--directory", "espacio-gamer-landing"],
+      "port": 8123
+    }
+  ]
+}
