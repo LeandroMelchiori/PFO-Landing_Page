@@ -10,7 +10,7 @@ Repositorio para la Practica Formativa Obligatoria 2 sobre Prompt Engineering en
 
 ## Deploy unificado
 
-- Link al deploy: https://vercel.com/leandromelchioris-projects/pfo-landing-page
+- Link al deploy: https://pfo-landing-page-eight.vercel.app/
 
 El despliegue inicia en `index.html`, que funciona como portada de acceso a las tres opciones solicitadas por la consigna.
 
